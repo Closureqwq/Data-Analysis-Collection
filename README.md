@@ -1,8 +1,9 @@
 # Data-Analysis-Collection
-"Isolation Forest.py" constitutes a sophisticated anomaly detection system, meticulously engineered to uncover latent outliers or anomalous behavior within a dataset. The entire workflow is methodically segmented into three key stages, namely: data preprocessing, model training, and result visualization.
+"Isolation Forest.py" is an anomaly detection system, specifically designed to uncover latent outliers or anomalous behavior from a dataset. The entire workflow is systematically divided into three critical stages: data preprocessing, model training, and result visualization.
 
-In the data preprocessing stage, the code peruses a CSV file, subsequently executing a Discrete Wavelet Transform (DWT) for data transformation, thereby generating two novel series dubbed "cA" and "cD". These series are emblematic of the approximate and detail components of the original data, respectively.
+During the data preprocessing phase, the code reads a CSV file and subsequently executes a Discrete Wavelet Transform (DWT) for data transformation, thereby creating two novel series named "cA" and "cD". These series respectively represent the approximation and detail components of the original data.
 
-Following this, the model training phase comes into play. Here, the code employs the Isolation Forest model for training, with the primary aim of identifying outliers within the data. Additionally, grid search is deployed for hyperparameter optimization, geared towards locating the most optimal parameter configuration.
+The next phase is model training. Here, the code employs the Isolation Forest model for training with the primary objective of identifying outliers within the data. In addition, the code utilizes grid search for hyperparameter optimization, with an aim to discover the most optimal parameter configuration.
 
-During the final stage of result visualization, the code predicts the anomaly scores within the test set, further transmuting these scores into binary labels. Theoretically, any continuous numerical data with frequency components can be used as a substitute for the existing dataset.
+In the final stage of result visualization, the code predicts the anomaly scores within the test set, and further converts these scores into binary labels. Theoretically, any continuous numerical data with frequency components can substitute the existing dataset.
+![image](https://github.com/Closureqwq/Data-Analysis-Collection/assets/102975605/19e2073e-8b06-4e5e-8a3f-426a520751f4)
